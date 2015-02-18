@@ -1,9 +1,9 @@
 {
-  "main":"com.bloidonia.vertx.metrics.MetricsModule",
+  "main":"be.qsys.vertx.metrics.MetricsModule",
 
-  "description":"JMX Metrics Module for Vert.x",
+  "description":"JMX Metrics Module for Vert.x, forked from Tim Yates",
   "licenses": ["The Apache Software License Version 2.0"],
-  "author": "Tim Yates",
+  "author": "Tim Yates, qsys",
   "keywords": ["jmx", "metrics"],
-  "homepage": "https://github.com/timyates/mod-metrics"
+  "homepage": "https://github.com/qsys/mod-metrics"
 }
