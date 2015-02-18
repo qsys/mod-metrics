@@ -18,6 +18,7 @@ package be.qsys.vertx.metrics ;
 
 import com.codahale.metrics.* ;
 import com.codahale.metrics.Timer.Context ;
+import com.codahale.metrics.ObjectNameFactory ;
 
 import java.util.Map ;
 import java.util.HashMap ;
@@ -30,7 +31,6 @@ import org.vertx.java.core.Handler ;
 import org.vertx.java.core.eventbus.Message ;
 import org.vertx.java.core.json.JsonArray ;
 import org.vertx.java.core.json.JsonObject ;
-import com.codahale.metrics.ObjectNameFactory ;
 
 public class MetricsModule extends BusModBase implements Handler<Message<JsonObject>> {
 
