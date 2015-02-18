@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.bloidonia.vertx.metrics ;
+package be.qsys.vertx.metrics ;
 
 import com.codahale.metrics.* ;
 import com.codahale.metrics.Timer.Context ;
