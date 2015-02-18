@@ -8,6 +8,6 @@ Needs [metrics](https://dropwizard.github.io/metrics/3.1.0/)>=3.1.0
 ## Default config:
 
     {
-       address  : "be.qsys",
-       domain : "be.qsys"
+       address  : "be.qsys.metrics",
+       domain : "be.qsys.metrics"
     }
